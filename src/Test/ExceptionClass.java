@@ -4,9 +4,9 @@ public class ExceptionClass {
 	public String setNum(int num) throws MyException {
 
 		if (num<=0 || num >= 100) {
-			return "Õý³£";
+			return "æ­£å¸¸";
 		} else {
-			throw new MyException("ÊäÈë´íÎó.....");
+			throw new MyException("è¾“å…¥é”™è¯¯.....");
 		}
 	}
 }
