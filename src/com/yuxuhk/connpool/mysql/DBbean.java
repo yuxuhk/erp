@@ -1,4 +1,4 @@
-package com.yuxuhk.connpool.oracle;
+package com.yuxuhk.connpool.mysql;
 
 public class DBbean {
 	// 连接处属性
