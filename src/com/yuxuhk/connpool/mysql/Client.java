@@ -1,7 +1,12 @@
 package com.yuxuhk.connpool.mysql;
 
+import org.apache.log4j.Logger;
+
 public class Client {
-	public static void main(String[] args) throws InterruptedException{
+	// 获取日志记录器Logger，名字为本类类名
+	private static Logger logger = Logger.getLogger(Client.class);
+
+	public static void main(String[] args) throws InterruptedException {
 		Thread t = init();
 		t.start();
 		t.join();
