@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.yuxuhk.connpool.mysql.DBbean;
 
+import com.mysql.jdbc.*;
 public class DBInitInfo {
 	public static List<DBbean> beans = null;
 	static {
@@ -13,7 +14,7 @@ public class DBInitInfo {
 		// 为了测试，这里我直接写死
 		DBbean beanMysql = new DBbean();
 		beanMysql.setDriverName("com.mysql.jdbc.Driver");
-		beanMysql.setUrl("jdbc:mysql://localhost:3306/crt");
+		beanMysql.setUrl("jdbc:mysql://localhost:3306/cart");
 		beanMysql.setUserName("root");
 		beanMysql.setPassword("root");
 		beanMysql.setMinConnections(5);
