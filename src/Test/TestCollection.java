@@ -7,10 +7,10 @@ public class TestCollection {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// int hero[] = new int[10];
-		// hero[0] = 1;
-		// int s = hero[20] = 1;
-		// System.out.println(s);
+		 int hero[] = new int[10];
+		 hero[0] = 1;
+		 int s = hero[0] = 1;
+		 System.out.println(s);
 
 	}
 
