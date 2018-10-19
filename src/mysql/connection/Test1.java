@@ -10,9 +10,7 @@ public class Test1 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-		
+		 
 	}
 
 }
